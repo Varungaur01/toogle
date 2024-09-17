@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VARUN GAUR</title>
+    <!-- Bootstrap CSS -->
+    <link rel="icon"href="G.png"type="image/x-icon"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .banner-container {
+        position: relative;
+        width: 100%;
+        height: 100px; /* Height of the banner */
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+      .banner-content {
+        display: flex;
+        width: max-content;
+        animation: scroll-horizontal 8s infinite;
+        scroll-behavior: smooth;
+      }
+      @keyframes scroll-horizontal {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+      .banner-item {
+        width: 300px; /* Width of each banner item */
+        height: 100px; /* Height of each banner item */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        
+        color: white;
+        border-right:150px solid #f1f1f1;
+      }
+     
+    </style>
+  </head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <div class="container ">
+            <img src="Toogle logo.png" alt="logo" height="50px"width="90px">
+            
+            <button class="navbar-toggler bg-secondary " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="course.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contact.html">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+
+<section class="container">
+    <div class="text-center">
+        <h1>Welcome to Toogle Contact page </h1><br><br><br>
+        <h2>Get in touch with us</h2><br><br><br>
+        <h3>Our Contact Information</h3><br>
+        <h3>Mail us on</h3><br>
+        
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Address</h5>
+                        <p class="card-text">123 Main St, Anytown, USA 12345</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="bg-primary text-white text-center py-4">
+        <div class="footer text-center">
+            <p>&copy; Toogle| <a href="#" class="text-white">Privacy</a> | <a href="#" class="text-white">Terms</a></p>
+        </div>
+    
+    </footer>
+
+
+
+   <!-- Bootstrap JS (optional) -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
